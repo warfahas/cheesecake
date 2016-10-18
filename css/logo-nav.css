@@ -13,8 +13,10 @@ body {
 }
 .navbar-inverse{ /*Changes background-color.*/
     background-color:#F5F5DC;
-   
-
+}
+.navbar-nav {
+    color:#f00;
+    }
 }
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
