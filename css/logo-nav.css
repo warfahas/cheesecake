@@ -14,7 +14,7 @@ body {
 .navbar-inverse{ /*Changes background-color.*/
     background-color:#F5F5DC;
 }
-.navbar-nav {
+.navbar-toggle {
     color:#f00;
     }
 }
