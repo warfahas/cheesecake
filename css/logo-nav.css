@@ -15,7 +15,7 @@ body {
     background-color:#F5F5DC;
    
 }
-.nav navbar-nav {
+..navbar-inverse .navbar-brand  {
     color:#f00;
     }
 }
