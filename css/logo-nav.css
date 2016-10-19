@@ -15,9 +15,9 @@ body {
     background-color:#F5F5DC;
    
 }
-/*ul .navbar-nav .navbar-toggle> li a{
-    color:#f00;
-    }*/
+.nav-tabs > li > a {
+color:#f00;
+    }
 }
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
