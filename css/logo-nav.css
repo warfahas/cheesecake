@@ -24,7 +24,7 @@ body {
 }
 .jumbotron {
     background-color: #f00;
-    color: #f00;
+    color: #000;
 }
 
 @media(min-width:768px) {
