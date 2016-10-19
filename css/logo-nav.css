@@ -22,6 +22,9 @@ body {
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
 }
+.jumbotron {
+    background-color: #f00;
+}
 
 @media(min-width:768px) {
     body {
