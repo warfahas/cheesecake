@@ -18,7 +18,9 @@ body {
 .navbar-inverse .navbar-nav > li > a {
    color: #f00; /*Change active text color here. Changes nav bar text.*/
     }
-
+.nav > li > a:hover {
+   color: 0ff; /*Change hover color here*/
+  }
 
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
