@@ -28,11 +28,11 @@ body {
     
 }
 .jumbotron h3{
-    color: #06f;
+    color: #f30;
 }
 
 .jumbotron p{
-    color: #06f;
+    color: #f30;
 }
 
 @media(min-width:768px) {
