@@ -19,7 +19,7 @@ body {
    color: #f00; /*Change active text color here. Changes nav bar text.*/
     }
 .navbar-inverse .navbar-nav > li > a:hover {
-   color: #0ff;
+   color: #ff6; /*Changes color of text when you hover.*/
 }
 
 .navbar-fixed-top .navbar-brand {
