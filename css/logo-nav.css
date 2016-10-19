@@ -25,6 +25,13 @@ body {
 }
 .jumbotron {
     background-color: #f00;
+    
+}
+.jumbotron h3{
+    color: #06f;
+}
+
+.jumbotron p{
     color: #06f;
 }
 
