@@ -31,11 +31,18 @@ body {
 }
 .jumbotron h3{
     color: #f30;
+    font-family: Impact;
 }
 
 .jumbotron p{
     color: #f30;
+    font-family: Impact;
 }
+h1 {
+    font-family: Impact;
+    text-align: center;
+}
+
 
 @media(min-width:768px) {
     body {
