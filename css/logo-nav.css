@@ -21,6 +21,9 @@ body {
 .navbar-inverse .navbar-nav > li > a:hover {
    color: #ff6; /*Changes color of text when you hover.*/
 }
+.facebook {
+    color: #7FFF00;
+}
 
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
