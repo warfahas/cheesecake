@@ -21,7 +21,7 @@ body {
 .navbar-inverse .navbar-nav > li > a:hover {
    color: #ff6; /*Changes color of text when you hover.*/
 }
-li.link1 { float: right;
+ul li.link1 { float: right;
 }
 
 
