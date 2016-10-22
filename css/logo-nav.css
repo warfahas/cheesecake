@@ -46,7 +46,7 @@ h1 {
 .modal-backdrop {
    background-color: #000;
 }
-.modal-header .bg-lg { background-color: #f33;
+.modal-header { background-color: #f33;
 }
 @media(min-width:768px) {
     body {
