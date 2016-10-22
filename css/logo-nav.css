@@ -43,7 +43,7 @@ h1 {
     text-align: center;
 }
 
-.modal {
+#myModal {
     background-color: f33;
 }
 @media(min-width:768px) {
