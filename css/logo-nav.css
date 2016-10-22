@@ -43,7 +43,7 @@ h1 {
     text-align: center;
 }
 
-.btn btn-info btn-lg {
+.btn {
     background-color: f33;
 }
 @media(min-width:768px) {
