@@ -43,7 +43,9 @@ h1 {
     text-align: center;
 }
 
-
+.btn btn-info btn-lg {
+    background-color: f33;
+}
 @media(min-width:768px) {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
