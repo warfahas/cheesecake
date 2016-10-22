@@ -26,16 +26,16 @@ body {
     padding: 0 15px;
 }
 .jumbotron {
-    background-color: #f00;
+    background-color: #f33;
     
 }
 .jumbotron h3{
-    color: #f30;
+    color: #fff;
     font-family: Impact;
 }
 
 .jumbotron p{
-    color: #f30;
+    color: #fff;
     font-family: Impact;
 }
 h1 {
