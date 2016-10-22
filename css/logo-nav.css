@@ -52,6 +52,8 @@ h1 {
 .modal-body {
   background-color: #3c3;
 }
+i { float: right;
+}
 @media(min-width:768px) {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
