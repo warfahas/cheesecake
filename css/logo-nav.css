@@ -52,7 +52,7 @@ h1 {
 .modal-body {
   background-color: #3c3;
 }
-.fa fa-2x fa fa-instagram { float: right;
+.fa { float: right;
 }
 @media(min-width:768px) {
     body {
