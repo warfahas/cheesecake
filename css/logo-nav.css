@@ -47,13 +47,12 @@ h1 {
    background-color: #000;
 }
 .modal-content {
-  background-color: #f00;
+  background-color: #f33;
 }
 .modal-body {
-  background-color: #3c3;
+  background-color: #f33;
 }
-.fa { float: right;
-}
+
 @media(min-width:768px) {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
