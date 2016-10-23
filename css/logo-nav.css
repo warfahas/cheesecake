@@ -53,6 +53,8 @@ h1 {
   background-color: #3c3;
 }
 i { float: right;
+    top: 5px;
+    left: 5px;
 }
 @media(min-width:768px) {
     body {
