@@ -42,6 +42,8 @@ h1 {
     font-family: Impact;
     text-align: center;
 }
+.modal-dialog { background-color: green;
+}
 
 .modal-backdrop {
    background-color: #000;
