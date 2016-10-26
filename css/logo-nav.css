@@ -18,7 +18,7 @@ body {
 .btn { /*Changes color of button.*/
     background-color:#f33;
     color:#fff;
-}*/
+}
 .navbar-inverse .navbar-nav > li > a {
    color: #000; /*Change active text color here. Changes nav bar text.*/
     }
