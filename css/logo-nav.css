@@ -22,10 +22,10 @@ body {
 .navbar-inverse .navbar-nav > li > a {
    color: #fff; /*Change active text color here. Changes nav bar text.*/
     }
-/*.navbar-inverse .navbar-nav > li >a:active {
+.navbar-inverse .navbar-nav > li >a:active {
     background-color:#f0f;
     color: #fff;
-}*/
+}
    
 .navbar-inverse .navbar-nav > li > a:hover {
    color: #ff6; /*Changes color of text when you hover.*/
@@ -53,13 +53,10 @@ h1 {
     font-family: Impact;
     text-align: center;
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-    /*You can add h1 and .jumbotron items here.*/
+
+    /* Carousel style above. You can add h1 and .jumbotron items here.*/
     
-}
+
 hr {
     height: 2px;
     color: #f33;
