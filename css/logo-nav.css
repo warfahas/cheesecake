@@ -15,7 +15,7 @@ body {
     background-color:#f33;
    
 }
-/*.btn { /*Changes color of button.*/
+.btn { /*Changes color of button.*/
     background-color:#f33;
     color:#fff;
 }*/
@@ -53,11 +53,11 @@ h1 {
     font-family: Impact;
     text-align: center;
 }
-/*.carousel-inner > .item > img,
+.carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 70%;
     margin: auto;
-    You can add h1 and .jumbotron items here.*/
+    /*You can add h1 and .jumbotron items here.*/
     
 }
 hr {
