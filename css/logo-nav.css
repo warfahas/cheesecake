@@ -62,7 +62,7 @@ h1 {
     /* Carousel style above. You can add h1 and .jumbotron items here.*/
     
 
-hr {
+.divide {
     width: 100%;
     height: 2px;
     color: #f00;
