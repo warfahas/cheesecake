@@ -63,6 +63,9 @@ hr { /*Changed settings for horizontal rule*/
  height: 2px;
  background: #f00;
 }
+.img-rounded { border: 2px solid #fff;
+}
+              
     /* Carousel style above. You can add h1 and .jumbotron items here.*/
     
 
