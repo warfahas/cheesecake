@@ -58,7 +58,11 @@ h1 {
       width: 70%;
       margin: auto;
 }
-
+hr { /*Changed settings for horizontal rule*/
+ width: 100%;
+ height: 2px;
+ background: #f00;
+}
     /* Carousel style above. You can add h1 and .jumbotron items here.*/
     
 
