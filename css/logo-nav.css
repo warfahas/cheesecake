@@ -64,8 +64,8 @@ h1 {
 
 hr {
     width: 100%;
-    height: 5px;
-    color: #f33;
+    height: 2px;
+    color: #f00;
 }
 .gallery {
     float: left;
