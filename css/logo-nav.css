@@ -98,6 +98,7 @@ hr { /*Changed settings for horizontal rule*/
 }
 .modal-content {
   background-color: #000;
+  color: #fff;
 }
 .modal-body {
   background-color: #f33;
