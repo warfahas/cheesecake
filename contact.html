@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"><!--Need this for Scroll Spy-->
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -92,21 +92,69 @@
 
     <!-- Page Content -->
     <div class="container">
+        <h2>Contact Us</h2>
+        <p>Contact us if you have any questions or comments.</p>
         <div class="row">
             <div class="col-lg-12">
-                <h1>Logo Nav by Start Bootstrap</h1>
-                <p>Note: You may need to adjust some CSS based on the size of your logo. The default logo size is 150x50 pixels.</p>
+               <div class="jumbotron">
+     <div class="embed-responsive embed-responsive-16by9">
+           <iframe width="854" height="480" src="https://www.youtube.com/embed/wI5gVEzrc_Q" frameborder="0" allowfullscreen align = "center">   </iframe>           
+                    
+                    </div>
+                    
+                </div> 
             </div>
         </div>
     </div>
     <!-- /.container -->
-
-    <!-- jQuery -->
+ <footer class="container-fluid text-center"><!--Added footer and scroll spy-->
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Cheesecake Website designed by Mohamed Abdi using <a href="http://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+</footer>
+<!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-</body>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
 </html>
