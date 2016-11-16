@@ -105,6 +105,9 @@ hr { /*Changed settings for horizontal rule*/
 .modal-body {
   background-color: #f33;
 }
+.tooltip { font-size: 50;
+    color: #f33;
+}
 
 @media(min-width:768px) {
     body {
